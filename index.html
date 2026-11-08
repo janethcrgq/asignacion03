@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: 24px auto; padding: 0 16px; }
+    .producto { display: flex; align-items: center; gap: 12px; padding: 8px 0; border-bottom: 1px solid #ddd; }
+    .producto span { flex: 1; }
+  </style>
+</head>
+<body>
+  <h1>Catálogo</h1>
+  <div id="productos"></div>
+
+  <h2>Carrito <button id="vaciar">Vaciar</button></h2>
+  <tabla-generica id="tabla-carrito"></tabla-generica>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
